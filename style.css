@@ -77,6 +77,9 @@ footer .footer-bottom {
 }
 
 @media (max-width: 768px) {
+  .main-content {
+    width: 100%;
+  }
   footer p {
     width: 100%;
   }
