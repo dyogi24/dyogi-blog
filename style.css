@@ -80,6 +80,15 @@ footer .footer-bottom {
   padding: 5px;
 }
 
+.group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
 @media (max-width: 768px) {
   .main-content {
     width: 100%;
