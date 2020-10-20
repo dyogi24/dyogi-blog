@@ -91,6 +91,19 @@ footer .footer-bottom {
       flex-wrap: wrap;
 }
 
+.credit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.credit p {
+  text-indent: 0;
+}
+
 @media (max-width: 768px) {
   .main-content {
     width: 100%;

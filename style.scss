@@ -81,6 +81,16 @@ footer {
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
+
+.credit {
+    display: flex;
+    justify-content: space-between;
+
+    p {
+        text-indent: 0;
+    }
+}
+
 @media (max-width: 768px) {
     .main-content {
      width: 100%;
